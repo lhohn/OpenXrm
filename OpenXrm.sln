@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenXrm", "OpenXrm\OpenXrm.csproj", "{8099079B-5DA9-4E77-A393-9D758EA4C915}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenXrm.Core.Api", "OpenXrm\OpenXrm.Core.Api.csproj", "{8099079B-5DA9-4E77-A393-9D758EA4C915}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9B1995BB-E8B3-4979-BF06-081408FD2F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenXrm.Core.Core", "OpenXrm.Core.Core\OpenXrm.Core.Core.csproj", "{0BC4646F-A8FC-41AF-85F5-92973C64381D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenXrm.Core.Database", "OpenXrm.Core.Database\OpenXrm.Core.Database.csproj", "{C39EF8BA-1363-4833-B673-A6090DD03DB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,22 @@ Global
 		{8099079B-5DA9-4E77-A393-9D758EA4C915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8099079B-5DA9-4E77-A393-9D758EA4C915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8099079B-5DA9-4E77-A393-9D758EA4C915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC4646F-A8FC-41AF-85F5-92973C64381D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC4646F-A8FC-41AF-85F5-92973C64381D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC4646F-A8FC-41AF-85F5-92973C64381D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC4646F-A8FC-41AF-85F5-92973C64381D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39EF8BA-1363-4833-B673-A6090DD03DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39EF8BA-1363-4833-B673-A6090DD03DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39EF8BA-1363-4833-B673-A6090DD03DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39EF8BA-1363-4833-B673-A6090DD03DB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8099079B-5DA9-4E77-A393-9D758EA4C915} = {9B1995BB-E8B3-4979-BF06-081408FD2F86}
+		{0BC4646F-A8FC-41AF-85F5-92973C64381D} = {9B1995BB-E8B3-4979-BF06-081408FD2F86}
+		{C39EF8BA-1363-4833-B673-A6090DD03DB3} = {9B1995BB-E8B3-4979-BF06-081408FD2F86}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68B5A1C0-3EF0-4338-AB88-28B18A126F06}
